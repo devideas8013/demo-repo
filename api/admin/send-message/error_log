@@ -1,0 +1,10 @@
+[13-Nov-2023 15:10:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'in_app_message' in 'field list' in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/send-message/manage-notice.php:10
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/send-message/manage-notice.php(10): mysqli_query(Object(mysqli), 'UPDATE usersdat...')
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/send-message/manage-notice.php on line 10
+[22-Nov-2023 17:24:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'in_app_message' in 'field list' in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/send-message/manage-notice.php:10
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/send-message/manage-notice.php(10): mysqli_query(Object(mysqli), 'UPDATE usersdat...')
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/send-message/manage-notice.php on line 10

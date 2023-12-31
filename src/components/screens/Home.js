@@ -175,7 +175,6 @@ function Home(){
           let accountDailylevelIncome = data.data[0]['account_dailylevel_income'];
           let accountRewardRankIncome = data.data[0]['account_rewardrank_income'];
           let accountDailyBonusIncome = data.data[0]['account_dailybonus_income'];
-          let accountSpecialRewardIncome = data.data[0]['account_special_reward_income'];
           let accountDailyBonusClaimed = data.data[0]['account_dailybonus_claimed'];
           let accountRoyaltyIncome = data.data[0]['account_royalty_income'];
           let accountAutoPoolIncome = data.data[0]['account_autopool_income'];
@@ -199,7 +198,6 @@ function Home(){
           setCookie("dailylevelincome", accountDailylevelIncome, 30);
           setCookie("rewardRankincome", accountRewardRankIncome, 30);
           setCookie("dailyBonusincome", accountDailyBonusIncome, 30);
-          setCookie("specialrewardincome", accountSpecialRewardIncome, 30);
           setCookie("royaltyncome", accountRoyaltyIncome, 30);
           setCookie("autoPoolincome", accountAutoPoolIncome, 30);
           setCookie("dailyBonusClaimed", accountDailyBonusClaimed, 30);
@@ -374,12 +372,12 @@ function Home(){
               </div>
             </Link>
 
-            <Link className="txt-deco-n row-view a-center mg-t-10" to={"/specialbonus"}>
+            <Link className="txt-deco-n row-view a-center mg-t-10">
               <img className='h-w-36' src={require('../icons/award_icon.png')} />
 
               <div className='w-100 row-view sb-view'>
                 <span className='ft-sz-16 cl-white mg-l-15'>Special Bonus</span>
-                <span className='ft-sz-16 cl-white'>₹{getCookie("specialrewardincome")}</span>
+                <span className='ft-sz-16 cl-white'>₹0</span>
               </div>
             </Link>
           </div>

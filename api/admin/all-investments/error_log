@@ -1,0 +1,18 @@
+[27-Oct-2023 08:08:07 UTC] PHP Warning:  Undefined variable $account_access_arr in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/all-investments/update-post.php on line 21
+[27-Oct-2023 08:08:07 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/all-investments/update-post.php:21
+Stack trace:
+#0 /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/all-investments/update-post.php(21): in_array()
+#1 {main}
+  thrown in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/all-investments/update-post.php on line 21
+[14-Nov-2023 18:14:42 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php on line 21
+[14-Nov-2023 18:14:42 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php:21
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php(21): in_array('access_investme...', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php on line 21
+[16-Nov-2023 17:36:37 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php on line 21
+[16-Nov-2023 17:36:37 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php:21
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php(21): in_array('access_investme...', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/all-investments/update-post.php on line 21

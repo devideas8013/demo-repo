@@ -1,0 +1,222 @@
+[27-Oct-2023 12:37:29 UTC] PHP Warning:  Undefined variable $account_access_arr in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/game-settings/edit-manager.php on line 27
+[27-Oct-2023 12:37:29 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/game-settings/edit-manager.php:27
+Stack trace:
+#0 /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/game-settings/edit-manager.php(27): in_array()
+#1 {main}
+  thrown in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/admin/game-settings/edit-manager.php on line 27
+[29-Oct-2023 01:19:58 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[29-Oct-2023 01:19:58 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[29-Oct-2023 06:33:16 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 27
+[29-Oct-2023 06:33:16 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:27
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(27): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 27
+[01-Nov-2023 06:35:04 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 27
+[01-Nov-2023 06:35:04 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:27
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(27): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 27
+[03-Nov-2023 04:24:32 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[03-Nov-2023 04:24:32 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[04-Nov-2023 00:57:22 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[04-Nov-2023 00:57:22 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[05-Nov-2023 06:31:10 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[05-Nov-2023 06:31:10 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[10-Nov-2023 08:23:18 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[10-Nov-2023 08:23:18 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[10-Nov-2023 08:25:46 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[10-Nov-2023 08:25:46 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[10-Nov-2023 08:49:14 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[10-Nov-2023 08:49:14 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[13-Nov-2023 14:51:22 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[13-Nov-2023 14:51:22 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[15-Nov-2023 07:10:51 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[15-Nov-2023 07:10:51 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[17-Nov-2023 17:42:00 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[17-Nov-2023 17:42:00 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[17-Nov-2023 17:43:25 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[17-Nov-2023 17:43:25 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[17-Nov-2023 17:57:30 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[17-Nov-2023 17:57:30 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[18-Nov-2023 14:57:19 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[18-Nov-2023 14:57:19 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[18-Nov-2023 15:12:17 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[18-Nov-2023 15:12:17 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[19-Nov-2023 10:37:21 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[19-Nov-2023 10:37:21 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[20-Nov-2023 02:16:11 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[20-Nov-2023 02:16:11 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[20-Nov-2023 08:58:12 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[20-Nov-2023 08:58:12 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[20-Nov-2023 18:44:30 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[20-Nov-2023 18:44:30 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php:19
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php(19): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/index.php on line 19
+[22-Nov-2023 07:31:15 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[22-Nov-2023 07:31:15 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[25-Nov-2023 19:30:50 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[25-Nov-2023 19:30:50 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[25-Nov-2023 19:31:06 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[25-Nov-2023 19:31:06 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[25-Nov-2023 20:19:34 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[25-Nov-2023 20:19:34 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[26-Nov-2023 09:42:01 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[26-Nov-2023 09:42:01 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[26-Nov-2023 13:41:32 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[26-Nov-2023 13:41:32 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[27-Nov-2023 04:15:50 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[27-Nov-2023 04:15:50 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[27-Nov-2023 04:53:15 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[27-Nov-2023 04:53:15 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[27-Nov-2023 16:44:37 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[27-Nov-2023 16:44:37 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 03:50:18 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 03:50:18 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 04:47:02 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 04:47:02 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 04:47:06 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 04:47:06 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 17:37:45 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 17:37:45 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 17:37:46 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 17:37:46 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 17:55:07 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 17:55:07 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 18:15:36 UTC] PHP Warning:  Undefined variable $account_access_arr in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28
+[28-Nov-2023 18:15:36 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php:28
+Stack trace:
+#0 /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php(28): in_array('access_settings', NULL)
+#1 {main}
+  thrown in /home2/adsexchanges/public_html/api.adsexchanges.com/admin/game-settings/edit-manager.php on line 28

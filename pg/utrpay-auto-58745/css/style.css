@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --primary-color: #F25278;
+    --light-primary-color: #FEF6F9;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --red-color: #F44336;
+    --green-color: #4CAF50;
+    --darkgrey-color: rgba(0,0,0,0.3);
+    --light-white-color: rgba(255,255,255,0.05);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body:focus {
+    outline: none !important;
+}
+
+.main-view{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: black;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.main-view .pg-view{
+    position: fixed;
+    width: 450px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    background: var(--white-color);
+}
+
+.main-view .pg-view::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main-view .pg-view {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.main-view .pg-top-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px 15px 15px;
+    background: var(--primary-color);
+}
+.main-view .pg-top-bar .topbar-nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white-color);
+    margin-top: 5px;
+}
+.main-view .pg-top-bar .pg-details-view{
+    position: relative;
+    margin-top: 15px;
+}
+.pg-top-bar .pg-details-view p{
+    font-size: 12px;
+    color: var(--white-color);
+}
+.pg-top-bar .pg-details-view p#recharge-amount-tv{
+    font-size: 30px !important;
+    margin-right: 10px;
+}
+.pg-top-bar .pg-details-view p#recharge-amount-tv span{
+    font-size: 25px !important;
+}
+.pg-top-bar .pg-details-view div{
+    display: flex;
+    align-items: center;
+}
+
+
+.pg-top-bar .topbar-nav i{
+    font-size: 1.5em;
+    padding: 10px 10px 10px 0;
+    cursor: pointer;
+}
+.payment-start-view{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+}
+.payment-option:not(:first-child){
+    margin-top: 20px;
+}
+.payment-option,.payment-qr-view,.payment-accept-option{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;  
+    padding: 0 15px;
+    border-left: 5px solid #F6F5FF;
+    border-bottom: 5px solid #F6F5FF;
+}
+.payment-option div,.payment-accept-option div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.payment-qr-view{
+    height: auto;
+    justify-content: center;
+}
+.payment-qr-view img{
+    height: 250px;
+}
+.payment-accept-option{
+    height: 20px;
+    justify-content: center; 
+    border: none!important;
+}
+.payment-accept-option div img{
+    height: 35px;
+}
+.payment-accept-option div p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.payment-accept-option div:not(:first-child){
+    margin-left: 15px;
+}
+.payment-option div p{
+    margin-left: 10px;
+}
+.payment-option .pg-upi-details-view{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.payment-option .pg-upi-details-view p:last-child{
+    font-size: 10px !important;
+    margin-top: 5px !important;
+}
+.payment-option button{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 10px;   
+    color: var(--white-color);
+    background: var(--primary-color); 
+}
+
+
+
+.confirm-dialog-view{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 450px;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transform: translateX(-50%);
+    background: var(--white-color);
+    border-top: 3px solid rgba(0,0,0,0.06);
+}
+.action-btn{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.09);
+    border-radius: 10px;
+}
+.action-btn p{
+    font-size: 18px;
+    margin-right: 15px;
+}
+.confirm-dialog-btn{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: var(--white-color);
+    background: var(--green-color);
+}
+
+.info-box{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.02);
+}
+
+
+.submit-code-btn{
+    height: 40px;
+    padding: 0 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: var(--primary-color);
+}
+
+.pg-view .copy_btn{
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 5px;
+    background: var(--light-primary-color);
+    border: 1px solid var(--primary-color);
+}
+.pg-top-bar .pg-details-view .copy_btn{
+    color: var(--white-color);
+    border: 1px solid rgba(255,255,255,0.5);
+    background: var(--light-white-color);
+}
+.pg-view .copy_btn:active,.pg-details-view .copy_btn:active{
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+
+/* payment form submit view */
+.pg-view .form-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 25px;
+}
+.pg-view .form-box input{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    background: rgba(0,0,0,0.02);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.pg-view .form-box button{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: var(--white-color);
+    background: var(--primary-color);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.pg-view .instruction-view{
+    width: 100%;
+    margin-top: 40px;
+    font-size: 14px;
+    margin-bottom: 5em;
+    padding: 20px 10px 10px 10px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+.pg-view .instruction-view p{
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.pg-view .payment-success-dialog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+}
+.pg-view .payment-success-dialog #payment-status-tv{
+    font-size: 1.2em;
+}
+.pg-view .payment-success-dialog i{
+    font-size: 4em;
+    color: var(--green-color) !important;
+}
+.pg-view .payment-success-dialog p{
+    margin-top: 10px;
+}
+.pg-view .payment-success-dialog .payment-details-view{
+    width: 100%;
+    padding: 10px;
+    background: #EAFAF1;
+    border: 1px solid #82E0AA;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.hide_view{
+    display: none !important;
+}
+
+
+@keyframes scale_anim {
+  0% {
+    transform: scale(0.9);
+  }
+  
+  50% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 550px) {
+    .main-view .pg-view,.main-view .instruction-dialog-view{
+        width: 100%;
+    }
+    .confirm-dialog-view{
+        width: 100%; 
+    }
+    .control-options button{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+    .scan-view{
+        width: 95%;
+    }
+}

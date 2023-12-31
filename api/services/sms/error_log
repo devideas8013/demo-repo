@@ -1,0 +1,13 @@
+[20-Oct-2023 21:02:00 Asia/Kolkata] PHP Warning:  file_get_contents(): SSL: Handshake timed out in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/services/sms/send-sms.php on line 57
+[20-Oct-2023 21:02:00 Asia/Kolkata] PHP Warning:  file_get_contents(): Failed to enable crypto in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/services/sms/send-sms.php on line 57
+[20-Oct-2023 21:02:00 Asia/Kolkata] PHP Warning:  file_get_contents(https://api.ipify.org): Failed to open stream: operation failed in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/services/sms/send-sms.php on line 57
+[20-Oct-2023 21:02:00 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/services/sms/send-sms.php:168
+Stack trace:
+#0 /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/services/sms/send-sms.php(168): mysqli->prepare()
+#1 /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/services/sms/send-sms.php(289): createNewAccount()
+#2 {main}
+  thrown in /home/b7m3uqav1zxa/adscrazytime.com/api.adscrazytime.com/services/sms/send-sms.php on line 168
+[03-Nov-2023 19:32:21 Asia/Kolkata] PHP Warning:  file_get_contents(): SSL: Handshake timed out in /home2/adsexchanges/public_html/api.adsexchanges.com/services/sms/send-sms.php on line 57
+[03-Nov-2023 19:32:21 Asia/Kolkata] PHP Warning:  file_get_contents(): Failed to enable crypto in /home2/adsexchanges/public_html/api.adsexchanges.com/services/sms/send-sms.php on line 57
+[03-Nov-2023 19:32:21 Asia/Kolkata] PHP Warning:  file_get_contents(https://api.ipify.org): Failed to open stream: operation failed in /home2/adsexchanges/public_html/api.adsexchanges.com/services/sms/send-sms.php on line 57
+[05-Nov-2023 14:39:51 Asia/Kolkata] PHP Warning:  file_get_contents(https://api.ipify.org): Failed to open stream: Connection timed out in /home2/adsexchanges/public_html/api.adsexchanges.com/services/sms/send-sms.php on line 57

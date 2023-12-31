@@ -30,7 +30,6 @@ import ReferalIncome from './components/screens/ReferalIncome';
 import ViewAllMembers from './components/screens/ViewAllMembers';
 import AutopoolIncome from './components/screens/AutopoolIncome';
 import RoyaltyIncome from './components/screens/RoyaltyIncome';
-import SpecialBonus from './components/screens/SpecialBonus';
 
 function App() {
 
@@ -58,7 +57,6 @@ function App() {
       <Route path='/daily-ads-income' element={<DailyAdsIncome/>} />
       <Route path='/level-daily-income' element={<LevelDailyIncome/>} />
       <Route path='/referal-income' element={<ReferalIncome/>} />
-      <Route path='/specialbonus' element={<SpecialBonus/>} />
       <Route path='/share' element={<Share/>} />
       <Route path='/rank' element={<Rank/>} />
       <Route path='/withdraw' element={<Withdraw/>} />
